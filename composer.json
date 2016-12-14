@@ -1,0 +1,21 @@
+{
+    "name": "sansaralab/sansaraci",
+    "description": "Continuous integration server",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vadim Shashin",
+            "email": "enapiuz@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "CI\\": "src/"
+        }
+    }
+}
