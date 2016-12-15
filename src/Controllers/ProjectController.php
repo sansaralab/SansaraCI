@@ -10,30 +10,30 @@ class ProjectController extends ApiController
 
     public function createAction()
     {
-        var_dump(__METHOD__);
+        return $this->json(__METHOD__);
     }
 
 
-    public function getAction()
+    public function getAction($id)
     {
-        var_dump(__METHOD__);
+        return $this->json(['id' => $id]);
     }
 
 
     public function listAction()
     {
-        var_dump(__METHOD__);
+        return $this->json(__METHOD__);
     }
 
 
-    public function updateAction()
+    public function updateAction($id)
     {
-        var_dump(__METHOD__);
+        return $this->json(__METHOD__);
     }
 
 
-    public function deleteAction()
+    public function deleteAction($id)
     {
-        var_dump(__METHOD__);
+        return $this->json(__METHOD__);
     }
 }
